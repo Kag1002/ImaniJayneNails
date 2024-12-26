@@ -1,0 +1,148 @@
+/* using a UNIVERSAL SELECTOR to ensure all backgrounds of every webpage is the same */
+*{
+    background-color:rgb(232, 228, 214);
+}
+
+
+/* greetings/h1 font */
+.playfair-display-H1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+/* Fonts for all BOLD subheadings - h2 - h5 */
+/* if want regular v check google fonts for codes */
+h2{
+    font-family: "Amatic SC", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: x-large;
+}
+
+h3{
+    font-family: "Amatic SC", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: x-large;
+}
+
+h4{
+    font-family: "Amatic SC", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: x-large;
+}
+
+
+/* Fonts for all paragraphs + lists */
+p{
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+li{
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .playfair-display-greeting {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+  } */
+
+
+/* body text font*/
+
+.nunito-para {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* font ptions */
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
