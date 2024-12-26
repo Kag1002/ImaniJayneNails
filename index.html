@@ -36,10 +36,10 @@
         /* Style the pink arrow image */
         .Pink-arrow {
             position: absolute;
-            top: 90%; /* Position it slightly overlapping */
+            top: 77%; /* Position it slightly overlapping */
             left: 50%;
             transform: translateX(-50%); /* Centre the arrow */
-            width: 100px; /* Adjust the size */
+            width: 200px; /* Adjust the size */
             height: auto;
             border: none;
             padding: 0;
@@ -49,10 +49,10 @@
         /* Style the tied paper note image */
         .Tied-paper-note {
             position: absolute;
-            top: 70%; /* Adjust for overlapping */
+            top: 66%; /* Adjust for overlapping */
             left: 50%;
             transform: translate(-50%, -50%); /* Centre the note */
-            width: 400px; /* Adjust size */
+            width: 550px; /* Adjust size */
             height: auto;
             margin:0 ;
             padding: 0;
@@ -60,19 +60,35 @@
             background: transparent;
         }
 
+        .greeting-on-note{
+            position: absolute;
+            top: 73%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 350px;
+            z-index: 10;
+            text-align: center;
+            height: auto;
+            background: none;
+        }
+
     </style>
 </head>
 
 <body>
-    <div class=".home-page-images">
+    <div class= "home-page-images">
     <!-- div creates a division of code which helps organise work and groups certain elements together -->
         <img src="art/greetings_background.png" class = "striped-background" alt = "striped background" />
-        <img src="art/tied-paper.png" class = "Tied-paper-note" alt= "Small tied paper note"/>
+        <img src="art/tied-paper.png" class = "Tied-paper-note" alt="Small tied paper note"/>
     <!-- added the arrow to the next page-->
         <a href="public/3.ServiceBookingsGallery.html"> <img src="art/Arrow.png" class = "Pink-arrow" alt="Pink arrow"/></a>
+
     </div>
 
-    <H1 class="playfair-display-H1"> Welcome to Imani Jayne Nails.</H1> 
-    <h2 style="text-align: center;">Let’s get you booked in!</h2>
+    <!-- adding text on note -->
+    <div class = "greeting-on-note">
+        <H1 class="playfair-display-H1"> Welcome to Imani Jayne Nails.</H1> 
+        <h2 style="text-align: center;">Let’s get you booked in!</h2>
+    </div>
 </body>
 </html>
